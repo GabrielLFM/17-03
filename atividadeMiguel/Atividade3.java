@@ -12,10 +12,12 @@ public class Atividade3 {
 	    num = sc.nextInt();
 	    tabuada = 1;
 	    
-	    while(tabuada<11) {
-	    	System.out.println(num*tabuada);
-	    	tabuada = (tabuada+1);
-	    }
+	    do {
+	    System.out.println(num + "x" +tabuada+ "=" +num*tabuada);
+	    tabuada = (tabuada+1);
+	    
+	    }while(tabuada<11);
+	    
 	    
 	    sc.close();
 	    
